@@ -29,7 +29,7 @@ At the time of writing the kvps are `ORIGIN` and `JWT_SECRET`.
 Pass the kvps on run:
 
 ```
-docker run -e ORIGIN="http://localhost:8080" -e JWT_SECRET="FOO" -p 8080:3000 alb
+docker run -e ORIGIN="http://localhost:8080" -e JWT_SECRET="FOO" -p 8080:3000 my-app
 ```
 
 ## About Cookies...
